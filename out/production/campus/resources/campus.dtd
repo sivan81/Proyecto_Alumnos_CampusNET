@@ -1,0 +1,7 @@
+<!ELEMENT campusNet (asignatura, alumno)>
+<!ELEMENT asignatura (alumno)>
+<!ATTLIST asignatura id CDATA #IMPLIED>
+<!ELEMENT alumno (nombre, apellidos, nota)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
